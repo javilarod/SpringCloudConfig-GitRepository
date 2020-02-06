@@ -10,3 +10,6 @@ zuul:
     echo-service:
       path: /echo/**
       url: http://localhost:8091
+    print-service:
+      path: /print/**
+      url: http://localhost:8093
